@@ -1,0 +1,44 @@
+body {
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.2rem;
+    margin: 0;
+    font-weight: 400; /* Adjusted font weight for better readability */
+}
+
+h1 {
+    font-family: "Pacifico", cursive;
+    letter-spacing: 4px;
+    color: #75358b;
+    font-size: 2.5rem; /* Increased font size for emphasis */
+}
+
+.accordion-button {
+    display: initial;
+    background-color: #CCB6F8;
+    border: none; /* Added border property for consistency */
+}
+
+.btn-primary {
+    background-color: #75358b;
+    border-color: #75358b;
+}
+
+.btn-primary:hover {
+    background-color: #986bf4;
+    border-color: #986bf4;
+}
+
+.form-control {
+    background-color: #CCB6F8;
+    border: none; /* Added border property for consistency */
+}
+
+.error {
+    color: #C21292;
+    font-weight: bold; /* Emphasized error messages */
+}
+
+.no_error {
+    color: #492E87;
+    font-weight: bold; /* Emphasized success messages */
+}
